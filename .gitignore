@@ -1,11 +1,82 @@
-HELP.md
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+.pnp/
+.pnp.js
+
+# Vite build output
+/dist/
+
+# React app build output (for Create React App or similar)
+build/
+
+# Coverage reports
+coverage/
+
+# IDEs and Text Editors
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+### VS Code ###
+.vscode/
+
+### WebStorm ###
+.idea/
+
+### JetBrains ###
+.idea/
+
+### Visual Studio for Mac ###
+.vscode/
+
+### Eclipse ###
+.project
+.classpath
+.settings/
+
+# React specific
+
+# Debugging
+.vscode/launch.json
+.vscode/settings.json
+
+# npm package lock
+package-lock.json
+
+# yarn package lock
+yarn.lock
+
+# .env files (if you're using them)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Storybook (if you use it)
+.storybook/
+
+# Build artifacts
+build/
+dist/
+out/
+
+### Gradle ###
 .gradle
 build/
 !gradle/wrapper/gradle-wrapper.jar
 !**/src/main/**/build/
 !**/src/test/**/build/
 
-### STS ###
+### STS (Spring Tools Suite) ###
 .apt_generated
 .classpath
 .factorypath
@@ -17,21 +88,9 @@ bin/
 !**/src/main/**/bin/
 !**/src/test/**/bin/
 
-### IntelliJ IDEA ###
-.idea
-*.iws
-*.iml
-*.ipr
-out/
-!**/src/main/**/out/
-!**/src/test/**/out/
-
 ### NetBeans ###
 /nbproject/private/
 /nbbuild/
 /dist/
 /nbdist/
 /.nb-gradle/
-
-### VS Code ###
-.vscode/
